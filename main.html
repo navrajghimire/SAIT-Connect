@@ -4,45 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAIT Connect</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <header>
-        <h1>Sait Connect</h1>
+        <h1 class="fade-in">SAIT Connect</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li> 
-                <li><a href="Features">Features</a></li>
+                <li><a href="#features">Features</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="home">
-        <h2>Welcome to SAIT Connect</h2>
-        <p>Your one-stop solution for all worries.</p>
-    </section>
-    
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We specialize in providing professional print solutions.</p>
+
+    <section id="hero">
+        <h2 class="slide-up">Welcome to SAIT Connect</h2>
+        <p class="fade-in">Your <span class="highlight">one-stop solution</span> for student worries.</p>
+
+        <div class="concern fade-in">
+            <h3>📚 Stressed about your upcoming course?</h3>
+            <p>Feeling overwhelmed by coursework? SAIT Connect provides insights from past students on study strategies, exam preparation, and time management to help you stay ahead.</p>
+        </div>
+
+        <div class="concern fade-in delay-1">
+            <h3>👨‍🏫 Confused about which instructors to choose?</h3>
+            <p>Choosing the right instructor can make or break your learning experience. Read student reviews, compare teaching styles, and make an informed decision before enrolling.</p>
+        </div>
+
+        <div class="concern fade-in delay-2">
+            <h3>🚀 Anxious about your journey ahead?</h3>
+            <p>Transitioning to a new semester or program can feel daunting. Connect with seniors, ask questions, and gain valuable advice to navigate your SAIT experience with confidence.</p>
+        </div>
+
+        <div class="concern fade-in delay-3">
+            <h3>🛠️ Worried about how to start?</h3>
+            <p>New to SAIT? We help you get started with a step-by-step guide, covering course materials, student communities, and must-know resources for a smooth beginning.</p>
+        </div>
+
+        <button id="welcome-btn" class="pulse-button">Get Started</button>
     </section>
 
-    <section id="Features">
+    <section id="about">
         <h2>About Us</h2>
-        <p>We help you to connect like minds and ease your stress.</p>
+        <p>We are a student-driven platform dedicated to easing the struggles of SAIT students by connecting them with seniors for guidance and mentorship.</p>
     </section>
-    
+
+    <section id="features">
+        <h2>Our Features</h2>
+        <ul>
+            <li>📚 Course-Specific Advice</li>
+            <li>🎓 Mentor Matching</li>
+            <li>📅 Event & Workshop Listings</li>
+            <li>💬 Community Discussions</li>
+        </ul>
+    </section>
+
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@processcolor.com</p>
+        <p>Email: <a href="mailto:info@processcolor.com">info@processcolor.com</a></p>
     </section>
-    
+
     <footer>
         <p>&copy; 2025 SAIT Connect. All Rights Reserved.</p>
     </footer>
-    
-    <script src="js/script.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

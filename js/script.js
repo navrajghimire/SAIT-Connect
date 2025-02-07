@@ -14,3 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
       authContainer.classList.add("fade-in"); // Apply animation
   });
 });
+
+// Redirect to main.html when the Login button is clicked
+function redirectToMain() {
+  window.location.href = "main.html";
+}
+
+// Redirect to signup.html when the Sign Up button is clicked
+function redirectToSignup() {
+  window.location.href = "signup.html";
+}
