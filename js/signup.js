@@ -1,24 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var signupForm = document.getElementById("signup-form");
+<script>
+    function goToLogin() {
+        window.location.href = "index.html"; // Redirects to login page
+    }
 
-  if (signupForm) {
-      signupForm.addEventListener("submit", function (event) {
-          event.preventDefault(); // Prevent default form submission behavior
-          
-          // Get user input values
-          var name = document.getElementById("name").value;
-          var email = document.getElementById("email").value;
-          var course = document.getElementById("course").value;
-          var year = document.getElementById("current-year").value;
-          var semester = document.getElementById("current-semester").value;
+    function redirectToMain() {
+        window.location.href = "main.html"; // Redirects to the main page after login
+    }
 
-          // Validate (Optional: Add advanced validation here)
-          if (name && email && course && year && semester) {
-              alert("Signup successful! Redirecting to main page...");
-              window.location.href = "main.html"; // Redirect to main page
-          } else {
-              alert("Please fill out all required fields.");
-          }
-      });
-  }
-});
+    function redirectToSignup() {
+        window.location.href = "signup.html"; // Redirects to the signup page
+    }
+</script>
