@@ -565,7 +565,8 @@ footer {
   gap: 15px;
   width: 100%;
   padding: 15px;
-  background: #222;
+  color: #ffffff;
+  background: #01466d;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
 }
@@ -577,6 +578,7 @@ footer {
   flex-wrap: wrap;
   justify-content: left;
   align-items: center;
+  
 }
 
 /* Individual Dropdown & Input Sections */
@@ -651,3 +653,80 @@ footer {
   align-items: center; /* Vertically align the dropdown and button */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Search Results Table */
+
+./* Container for Search Results */
+.search-results-container {
+  margin-top: 20px;
+  padding: 20px;
+  color: #00ff2f;
+  background: #ded2d2; /* Completely white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  overflow-x: auto; /* Ensures table is scrollable on small screens */
+}
+
+/* Table Styles */
+.search-results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Table Header */
+.search-results-table th {
+  background: #000000; /* White background */
+  color: #000000; /* Black text */
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #000000; /* Black borders */
+}
+
+/* Table Rows */
+.search-results-table td {
+  background: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  padding: 12px;
+  border: 1px solid #000000; /* Black borders */
+}
+
+/* Remove alternate row color to keep it purely white */
+.search-results-table tr:nth-child(even) {
+  background: #ffffff;
+}
+
+/* Responsive: Ensure proper spacing on smaller screens */
+@media screen and (max-width: 768px) {
+  .search-results-container {
+    overflow-x: auto; /* Scroll enabled for smaller screens */
+  }
+  
+  .search-results-table th,
+  .search-results-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

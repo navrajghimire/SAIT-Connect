@@ -19,127 +19,163 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// Accordian
-
-document.addEventListener('DOMContentLoaded', function () {
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-
-  for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          var icon = this.querySelector('.toggle-icon');
-          if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-              icon.textContent = '+';
-          } else {
-              // Set max height properly to ensure all content is visible
-              panel.style.maxHeight = panel.scrollHeight + 30 + "px"; // Added 30px to cover any hidden content
-              icon.textContent = '-';
-          }
-      });
-  }
-});
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-  // Portfolio items data
-  var portfolioItems = [
-      {
-          type: 'video',
-          url: 'assets/MMDA203_C Group 11_Video_1920x1080.mp4',
-          message: 'Digital Media - Creation of a Commercial video (Video)'
-      },
-      {
-          type: 'video',
-          url: 'assets/The Product Managers Role in the Product Life Cycle_Analysis and Presentation.mp4',
-          message: 'The Product Managers Role in the Product Life Cycle - Analysis and Presentation (Video)'
-      },
-      {
-          type: 'pdf',
-          url: 'assets/Assignment_Report_Applying the Agile Framework.pdf',
-          message: 'Assignment Report - Applying the Agile Framework (PDF)'
-      },
-      {
-          type: 'pdf',
-          url: 'assets/Funnel Analysis Report.pdf',
-          message: 'Funnel Analysis Report (PDF)'
-      },
-      {
-          type: 'pdf',
-          url: 'assets/INDD BRAND IDENTITY GUIDELINES.pdf',
-          message: 'INDD Brand Identity Guidelines (PDF)'
-      },
-      {
-          type: 'pdf',
-          url: 'assets/Portfolio Collection Part A_OL.pdf',
-          message: 'Portfolio Collection Part A_OL (PDF)'
-      }
-  ];
+  // Do not edit any thing above this 
 
-  var previousIndex = -1;
 
-  // Get the button element
-  var loadButton = document.getElementById('load-item');
 
-  // Event listener for the button click
-  loadButton.addEventListener('click', function() {
-      var randomIndex = previousIndex;
-      while (randomIndex === previousIndex) {
-          randomIndex = Math.floor(Math.random() * portfolioItems.length);
-      }
-      previousIndex = randomIndex;
-
-      // Get the random portfolio item
-      var randomItem = portfolioItems[randomIndex];
-
-      // Display the message of the random portfolio item
-      var portfolioItemContainer = document.getElementById('portfolio-item');
-      portfolioItemContainer.innerHTML = `<a href="${randomItem.url}" target="_blank">${randomItem.message}</a>`;
-
-      // Add the blinking animation to the loading message
-      var loadingMessage = document.createElement('p');
-      loadingMessage.textContent = 'Click the above link in green. The content will open in a new tab.';
-      loadingMessage.classList.add('loading-message');
-      portfolioItemContainer.appendChild(loadingMessage);
-  });
-});
+  
 
 
 
 
 
-//   Do not edit any thing above this, All setting below this are for the serarch buttons
 
 
+// ========================== Local Student Data ==========================
+const studentData = [
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "navrajghimire@gmail.com" },
+  { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "ZacheryFavel@gmail.com" },
+  { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CMPH 209 - Introduction to Hardware", Email: "Riyapatel@gmail.com" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I",Email: "navrajghimire@gmail.com" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 219 - Introduction to Web Communications" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "DSGN 228 - Introduction to Visual Design" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "MMDA 202 - Digital Media Foundations" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "PHIL 241 - Critical Thinking" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 218 - Intermediate Web Communications" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "PMGT 200 - Product Management" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 221 - Intermediate Visual Design" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "DIGI 300 - Digital Imaging" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "DSGN 304 - Advanced Visual Design" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "DSGN 313 - Typography" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "PRNT 300 - Print Production" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "DSGN 306 - Design Studio 1" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 4", Subject: "DSGN 308 - Design Studio 2" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 4", Subject: "DSGN 309 - Future of Design" },
+  { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 4", Subject: "PROJ 309 - Capstone Project" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+];
+
+// ========================== Search Function by Name ==========================
 function searchByName() {
-    let input = document.getElementById("searchInput").value;
-    alert("Searching for: " + input);
-    // Add search logic here
+  let input = document.getElementById("searchInput").value.toLowerCase().trim();
+  const container = document.getElementById("resultContainer");
+
+  // If the search field is empty, show an alert and exit the function
+  if (!input) {
+      alert("Please enter a name to search.");
+      return;
+  }
+
+  console.log("🔍 Searching for:", input);
+
+  // Filter student data to find matches based on name
+  let results = studentData.filter(student => 
+      student.Name.toLowerCase().includes(input)
+  );
+
+  console.log("🔍 Search Results:", results);
+  displayResults(results);  // Call function to display results
 }
 
-function searchDropdown() {
-    let selectedStudent = document.getElementById("studentDropdown").value;
-    if (selectedStudent) {
-        alert("Searching for: " + selectedStudent);
-        // Add dropdown search logic here
-    } else {
-        alert("Please select a student");
-    }
+
+
+
+
+
+
+// ========================== Search Function by Year ==========================
+function searchByYear() {
+  let selectedYear = document.getElementById("studentDropdown").value;
+  const container = document.getElementById("resultContainer");
+
+  // Clear previous results
+  container.innerHTML = "";
+
+  // If no year is selected, show an alert and exit
+  if (!selectedYear) {
+      alert("Please select a year.");
+      return;
+  }
+
+  console.log("📜 Searching for students in:", selectedYear);
+
+  // Filter student data to get students of the selected year
+  let results = studentData.filter(student => student.Year === selectedYear);
+
+  console.log("📜 Filtered Results (Before Removing Duplicates):", results);
+
+  // Use a Set to remove duplicate names
+  let uniqueStudents = [];
+  let seenNames = new Set();
+
+  results.forEach(student => {
+      if (!seenNames.has(student.Name)) {
+          seenNames.add(student.Name);
+          uniqueStudents.push(student);
+      }
+  });
+
+  console.log("📜 Filtered Results (After Removing Duplicates):", uniqueStudents);
+
+  // If no students are found for the selected year, display a message
+  if (uniqueStudents.length === 0) {
+      container.innerHTML = "<p>No students found for the selected year.</p>";
+      return;
+  }
+
+  // Display results in a list format
+  let resultHTML = `<h3>Students in ${selectedYear}:</h3><ul>`;
+  uniqueStudents.forEach(student => {
+      let email = student.Email || "N/A"; // Handle missing emails
+      resultHTML += `<li><strong>Name:</strong> ${student.Name}, <strong>Email:</strong> ${email}</li>`;
+  });
+  resultHTML += `</ul>`;
+
+  container.innerHTML = resultHTML;
 }
 
 
 
-function searchResults() {
-    let course = document.getElementById("courseDropdown").value;
-    let year = document.getElementById("yearDropdown").value;
-    let semester = document.getElementById("semesterDropdown").value;
 
-    if (course && year && semester) {
-        alert(`Searching for: ${course}, ${year}, ${semester}`);
-    } else {
-        alert("Please select Course, Year, and Semester before searching.");
-    }
+
+
+
+
+// ========================== Function to Display Results (Name & Email) ==========================
+function displayResults(results) {
+  const container = document.getElementById("resultContainer");
+  container.innerHTML = ""; // Clear previous results
+
+  if (results.length === 0) {
+      container.innerHTML = "<p>No results found</p>";
+      return;
+  }
+
+  // Extract name and email (assuming the first match contains the correct email)
+  let name = results[0].Name;
+  let email = results[0].Email || "N/A"; // Handle missing emails
+
+  // Display name and email
+  container.innerHTML = `
+      <p><strong>Name:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+  `;
 }
