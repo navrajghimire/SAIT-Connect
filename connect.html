@@ -102,6 +102,8 @@
 
 
 
+
+
 <!-- Search by Year -->
 <div class="dropdown-search">
     <label for="studentDropdown">Select Year</label>
@@ -135,7 +137,6 @@
     
 
 
-
     <section class="content-section">
         <div class="section-heading">
             <h2>Specific Search</h2>
@@ -150,10 +151,9 @@
                     <label for="courseDropdown">Course</label>
                     <select id="courseDropdown">
                         <option value="">Choose a Course</option>
-                        <option value="graphic_design">Graphic Design</option>
-                        <option value="software_engineering">Software Engineering</option>
-                        <option value="business_management">Business Management</option>
-                        <option value="data_science">Data Science</option>
+                        <option value="graphic_design">IDD</option>
+                        <option value="software_engineering">SD</option>
+                        <option value="business_management">ITS</option>
                     </select>
                 </div>
     
@@ -183,35 +183,38 @@
                         <label for="subjectDropdown">Subject</label>
                         <select id="subjectDropdown">
                             <option value="">Choose Subject</option>
-                            <option value="math">Mathematics</option>
-                            <option value="physics">Physics</option>
-                            <option value="chemistry">Chemistry</option>
-                            <option value="biology">Biology</option>
-                            <option value="computer_science">Computer Science</option>
+                            <option value="COMM 238 - Technical Communications I">COMM 238 - Technical Communications I</option>
+                            <option value="CMPH 209 - Introduction to Hardware">CMPH 209 - Introduction to Hardware</option>
+                            <option value="CPRG 219 - Introduction to Web Communications">CPRG 219 - Introduction to Web Communications</option>
+                            <option value="DSGN 228 - Introduction to Visual Design">DSGN 228 - Introduction to Visual Design</option>
+                            <option value="MMDA 202 - Digital Media Foundations">MMDA 202 - Digital Media Foundations</option>
+                            <option value="PHIL 241 - Critical Thinking">PHIL 241 - Critical Thinking</option>
+                            <option value="CPRG 218 - Intermediate Web Communications">CPRG 218 - Intermediate Web Communications</option>
+                            <option value="PMGT 200 - Product Management">PMGT 200 - Product Management</option>
+                            <option value="DSGN 221 - Intermediate Visual Design">DSGN 221 - Intermediate Visual Design</option>
+                            <option value="DSGN 227 - Introduction to User Experience (UX)">DSGN 227 - Introduction to User Experience (UX)</option>
+                            <option value="MMDA 203 - Intermediate Digital Media Production">MMDA 203 - Intermediate Digital Media Production</option>
+                            <option value="DIGI 300 - Digital Imaging">DIGI 300 - Digital Imaging</option>
+                            <option value="DSGN 304 - Advanced Visual Design">DSGN 304 - Advanced Visual Design</option>
+                            <option value="DSGN 313 - Typography">DSGN 313 - Typography</option>
+                            <option value="PRNT 300 - Print Production">PRNT 300 - Print Production</option>
+                            <option value="DSGN 306 - Design Studio 1">DSGN 306 - Design Studio 1</option>
+                            <option value="DSGN 308 - Design Studio 2">DSGN 308 - Design Studio 2</option>
+                            <option value="DSGN 309 - Future of Design">DSGN 309 - Future of Design</option>
+                            <option value="PROJ 309 - Capstone Project">PROJ 309 - Capstone Project</option>
                         </select>
                     </div>
     
                     <button class="search-button" onclick="searchDropdown()">Search</button>
                 </div>
-            </div>
+            </div> <!-- ✅ Corrected Closing for `.dropdown-group` -->
+
+            <!-- Display Results for Course, Year, Semester & Subject Search -->
+            <div id="resultContainerDropdown"></div>
+
         </div>
     </section>
     
-    
-    
-            
-
-
-            
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
 
 
 
