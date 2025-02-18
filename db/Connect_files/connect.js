@@ -50,16 +50,16 @@
 { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
 { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
 
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" },
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 313 - Typography" },
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "PRNT 300 - Print Production" },
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 306 - Design Studio 1" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "DIGI 300 - Digital Imaging" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "DSGN 304 - Advanced Visual Design" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "DSGN 313 - Typography" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "PRNT 300 - Print Production" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 3", Subject: "DSGN 306 - Design Studio 1" },
 
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 308 - Design Studio 2" },
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 309 - Future of Design" },
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
-{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DIGI 301 - Digital Marketing" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 4", Subject: "DSGN 308 - Design Studio 2" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 4", Subject: "DSGN 309 - Future of Design" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 4", Subject: "PROJ 309 - Capstone Project" },
+{ Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 4", Subject: "DIGI 301 - Digital Marketing" },
 
 
 
@@ -75,17 +75,17 @@
 { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 2", Subject: "CPSY 202 - User Experience and Design" },																	
 { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 2", Subject: "PHIL 241 - Critical Thinking" },	
 
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 303 - Mobile Application Development" },
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 304 - Object-Oriented Programming 3" },
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 306 - Web Development 2" },
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 307 - Database Programming" },
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPSY 301 - Software Projects: Analysis, Design, and Management" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 3", Subject: "CPRG 303 - Mobile Application Development" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 3", Subject: "CPRG 304 - Object-Oriented Programming 3" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 3", Subject: "CPRG 306 - Web Development 2" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 3", Subject: "CPRG 307 - Database Programming" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 3", Subject: "CPSY 301 - Software Projects: Analysis, Design, and Management" },
 
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "CPRG 305 - Software Testing and Deployment" },
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 300 - Cloud Computing for Software Development" },
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "INTP 302 - Emerging Trends in Software Development" },
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "ITSC 320 - Software Security" },
-{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 4", Subject: "CPRG 305 - Software Testing and Deployment" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 4", Subject: "CPSY 300 - Cloud Computing for Software Development" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 4", Subject: "INTP 302 - Emerging Trends in Software Development" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 4", Subject: "ITSC 320 - Software Security" },
+{ Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 4", Subject: "PROJ 309 - Capstone Project" },
 
 
 
@@ -101,17 +101,17 @@
 { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPSY 206 - Virtualization Fundamentals" },
 { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "PHIL 241 - Critical Thinking" },
 
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "CPNT 300 - Enterprise Networking, Security, and Automation" },
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "CPNT 302 - Wireless Networking Fundamentals" },
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "INTP 301 - Emerging Technologies" },
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "ITSC 300 - IT Security Fundamentals" },
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "ITSC 350 - Intermediate IT Security" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 3", Subject: "CPNT 300 - Enterprise Networking, Security, and Automation" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 3", Subject: "CPNT 302 - Wireless Networking Fundamentals" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 3", Subject: "INTP 301 - Emerging Technologies" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 3", Subject: "ITSC 300 - IT Security Fundamentals" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 3", Subject: "ITSC 350 - Intermediate IT Security" },
 
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 302 - Advanced Servers" },
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 304 - Cloud Computing" },
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 350 - Intermediate Virtualization" },
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 352 - IT Service Management" },
-{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" }
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 4", Subject: "CPSY 302 - Advanced Servers" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 4", Subject: "CPSY 304 - Cloud Computing" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 4", Subject: "CPSY 350 - Intermediate Virtualization" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 4", Subject: "CPSY 352 - IT Service Management" },
+{ Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 4", Subject: "PROJ 309 - Capstone Project" }
 
   
   
@@ -200,6 +200,8 @@ function displayResults(results) {
 
 
 
+
+
 // ========================== Search Function by Year ==========================
 function searchByYear() {
     let selectedYear = document.getElementById("studentDropdown").value.trim();
@@ -275,8 +277,12 @@ function displayYearResults(results, selectedYear) {
 
 
 
-  // ========================== Function to Display Results with Search Filters ==========================
-function searchDropdown() {
+  // ========================== Function to Display Results with search filters ==========================
+
+
+
+
+  function searchDropdown() {
     let selectedCourse = document.getElementById("courseDropdown").value.trim();
     let selectedYear = document.getElementById("yearDropdown").value.trim();
     let selectedSemester = document.getElementById("semesterDropdown").value.trim();
@@ -328,6 +334,12 @@ function searchDropdown() {
         let semesterMatch = !selectedSemester || student.Semester === selectedSemester;
         let subjectMatch = !selectedSubject || student.Subject === selectedSubject;
 
+        // Debugging Individual Matches
+        if (!courseMatch) console.log(`🚨 Course Mismatch: Expected ${selectedCourse}, Found ${student.Course}`);
+        if (!yearMatch) console.log(`🚨 Year Mismatch: Expected ${selectedYear}, Found ${student.Year}`);
+        if (!semesterMatch) console.log(`🚨 Semester Mismatch: Expected ${selectedSemester}, Found ${student.Semester}`);
+        if (!subjectMatch) console.log(`🚨 Subject Mismatch: Expected ${selectedSubject}, Found ${student.Subject}`);
+
         return courseMatch && yearMatch && semesterMatch && subjectMatch;
     });
 
@@ -352,20 +364,18 @@ function searchDropdown() {
         return;
     }
 
-    // ✅ Display results as hyperlinks
     let resultHTML = `<h3>Matching Students:</h3><ul>`;
     uniqueStudents.forEach(student => {
-        resultHTML += `
-            <li>
-                <a href="profile.html?name=${encodeURIComponent(student.Name)}" target="_blank">
-                    ${student.Name}
-                </a>
-            </li>`;
+        let email = student.Email || "N/A";
+        resultHTML += `<li>${student.Name}</li>`;
     });
     resultHTML += `</ul>`;
 
     container.innerHTML = resultHTML;
 }
+
+
+
 
 
 

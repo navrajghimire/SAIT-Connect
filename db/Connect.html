@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0186)file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/connect.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connect</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Darker+Grotesque:wght@300..900&family=Domine:wght@400..700&family=Frijole&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Quicksand:wght@300..700&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/connect.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Connect_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Connect_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./Connect_files/connect.css">
 
 
     
      <!-- Include XLSX Library -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+     <script src="./Connect_files/xlsx.full.min.js"></script>
     
 
 
@@ -24,16 +24,16 @@
         <div class="navbar">
             <div class="logo">
                 <ul class="nav-links">
-                    <img src="assets/logo.png" alt="Navraj Logo with word mark and text below it"></a>
+                    <img src="./Connect_files/logo.png" alt="Navraj Logo with word mark and text below it">
                 </ul>
             </div>
 
             <nav>
                 <ul class="nav-links">
-                    <a href="main.html"><i class="fa fa-fw fa-home"></i> Home</a> 
-                    <a href="about.html"><i class="fa fa-fw fa-user"></i> About</a> 
-                    <a href="connect.html"><i class="fa fa-fw fa-envelope"></i> Connect</a>
-                    <a href="contact.html"><i class="fa fa-fw fa-phone"></i> Contact</a>
+                    <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/main.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+                    <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/about.html"><i class="fa fa-fw fa-user"></i> About</a> 
+                    <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/connect.html"><i class="fa fa-fw fa-envelope"></i> Connect</a>
+                    <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/contact.html"><i class="fa fa-fw fa-phone"></i> Contact</a>
                 </ul>
             </nav>
         </div>
@@ -55,7 +55,7 @@
 
             <div class="content-item">
                 <div class="content-image">
-                    <img src="assets/img2.png" alt="A person in office with a measuring device and a mac book on the table behind him">
+                    <img src="./Connect_files/img2.png" alt="A person in office with a measuring device and a mac book on the table behind him">
                 </div>
                 <div class="content-text">
                     <p>SAIT Connect is more than just a networking platform—it's a thriving community designed to help you navigate your academic and professional journey with confidence. Whether you're a first-year student seeking guidance, a senior looking to share your experiences, or an alumnus eager to give back, SAIT Connect brings everyone together in one collaborative space.
@@ -97,7 +97,7 @@
     <label for="searchInput">Input Name</label>
     <input type="text" id="searchInput" placeholder="Type name to search">
     <button class="search-button" onclick="searchByName()">Search</button>
-    <button class="clear-btn" onclick="clearSearchResults('searchInput', 'resultContainer')">Clear</button>
+    <button class="clear-btn" onclick="clearSearchResults(&#39;searchInput&#39;, &#39;resultContainer&#39;)">Clear</button>
 </div>
 
 
@@ -115,7 +115,7 @@
 
     </select>
     <button class="search-button" onclick="searchByYear()">Search</button>
-    <button class="clear-btn" onclick="clearSearchResults('studentDropdown', 'resultContainer')">Clear</button>
+    <button class="clear-btn" onclick="clearSearchResults(&#39;studentDropdown&#39;, &#39;resultContainer&#39;)">Clear</button>
 </div>
 
 
@@ -123,7 +123,12 @@
 
 
         <!-- Display Results Below Search -->
-        <div id="resultContainer"></div>
+        <div id="resultContainer"><h3>Search Results by Name:</h3><ul>
+            <li>
+                <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/profile.html?name=Riya%20Patel" target="_blank">
+                    Riya Patel  <!-- Student's name displayed as a clickable link -->
+                </a>
+            </li></ul></div>
 
 
 
@@ -145,7 +150,7 @@
     
         <div class="search-container">
             <!-- Left-aligned heading -->
-            <h3 class="search-heading">Find by Course, Year & Semester</h3>
+            <h3 class="search-heading">Find by Course, Year &amp; Semester</h3>
     
             <div class="dropdown-group">
                 <div class="dropdown-search">
@@ -232,17 +237,17 @@
             </div>
 
             <div class="footer-links">
-                <a href="main.html" aria-label="Home"><i class="fa fa-fw fa-home"></i></a>
-                <a href="about.html" aria-label="About"><i class="fa fa-fw fa-user"></i></a>
-                <a href="connect.html" aria-label="Connect"><i class="fa fa-fw fa-envelope"></i></a>
-                <a href="contact.html" aria-label="Contact"><i class="fa fa-fw fa-phone"></i></a>
+                <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/main.html" aria-label="Home"><i class="fa fa-fw fa-home"></i></a>
+                <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/about.html" aria-label="About"><i class="fa fa-fw fa-user"></i></a>
+                <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/connect.html" aria-label="Connect"><i class="fa fa-fw fa-envelope"></i></a>
+                <a href="file:///Volumes/DATA/NAVRAJ%20MAC%20BACKUP_2024-12-12/DATA/SAIT-IDD-Graphics%20Design%20Major/2nd%20Year/SEM%202/PROJ-309-Capstone%20Project/PROJECT%20SAIT%20CONNECT/Website/contact.html" aria-label="Contact"><i class="fa fa-fw fa-phone"></i></a>
             </div>
 
             <div class="footer-copyright-container">
-                <p>© SAIT Connect <span id="current-year"></span> | All Rights Reserved</p>
+                <p>© SAIT Connect <span id="current-year">2025</span> | All Rights Reserved</p>
             </div>
             <div class="social-icons">
-                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
                 <a href="https://www.linkedin.com/in/navraj-ghimire-12b28059/" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
                 <a href="https://twitter.com/" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
@@ -256,6 +261,7 @@
     </footer>
 
 
-    <script src="js/connect.js"></script>
-</body>
-</html>
+    <script src="./Connect_files/connect.js"></script>
+
+
+</footer></body></html>
