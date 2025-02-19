@@ -9,12 +9,20 @@
 <body>
 
     <div class="profile-container">
-        <img id="studentPhoto" src="default.jpg" alt="Student Photo">
-        <h2 id="studentName"></h2>
-        <p><strong>Email:</strong> <span id="studentEmail"></span></p>
-        <p><strong>Current Year:</strong> <span id="studentYear"></span></p>
-        <p><strong>Semester:</strong> <span id="studentSemester"></span></p>
-        <a href="connect.html" class="back-button">Go Back</a>
+        <!-- Student Photo -->
+        <img id="studentPhoto" src="assets/studentsphoto/default.jpg" alt="Student Photo">
+        
+        <!-- Student Details -->
+        <h2 id="studentName">N/A</h2>
+        <p><strong>Email:</strong> <span id="studentEmail">N/A</span></p>
+        <p><strong>Current Year:</strong> <span id="studentYear">N/A</span></p>
+        <p><strong>Semester:</strong> <span id="studentSemester">N/A</span></p>
+        
+        <!-- Buttons -->
+        <div class="buttons">
+            <button onclick="goBack()">Go Back</button>
+            <button id="connectButton">Connect</button>
+        </div>
     </div>
 
     <script src="js/profile.js"></script>
