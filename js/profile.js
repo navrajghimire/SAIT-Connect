@@ -144,11 +144,15 @@ if (studentRecords.length > 0) {
     // Set the default photo
     document.getElementById("studentPhoto").src = 'assets/studentsphoto/default.jpg';
 }
-
-// Go Back button function
 function goBack() {
-    window.history.back();
+    // Check if there's a previous page in the history stack
+    if (window.history.length > 1) {
+        window.history.back();  // Go back if there's history
+    } else {
+        window.location.href = 'connect.html';  // Redirect to connect.html if no history
+    }
 }
+
 
 // Connect button function to open email client
 document.getElementById("connectButton").addEventListener("click", function() {
