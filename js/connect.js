@@ -113,17 +113,7 @@
 { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 352 - IT Service Management" },
 { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
   
   
   ];
@@ -131,8 +121,23 @@
 
 
   
+
+
+
+
+
+
+
+
+
+  
   
   // ========================== Search Function by Name ==========================  
+
+
+
+
+  
 function searchByName() {
     let input = document.getElementById("searchInput").value.toLowerCase().trim();
     const container = document.getElementById("resultContainer");
@@ -154,7 +159,14 @@ function searchByName() {
     displayResults(results);  // Call function to display results
 }
 
-// ========================== Function to Display Results (Unique Names & Hyperlinked) ==========================  
+
+
+
+
+                                                                            // ======Function to Display Results by name (Unique Names & Hyperlinked) ========
+
+
+
 function displayResults(results) {
     const container = document.getElementById("resultContainer");
     container.innerHTML = ""; // Clear previous results
@@ -168,11 +180,11 @@ function displayResults(results) {
     // ✅ Remove duplicate names using a Set to ensure each name appears only once
     let seenNames = new Set();
     let uniqueResults = results.filter(student => {
-        if (!seenNames.has(student.Name)) {  // Check if name has already been added
-            seenNames.add(student.Name);    // Add name to Set to track it
-            return true;                    // Keep this student in the filtered list
+        if (!seenNames.has(student.Name)) {  
+            seenNames.add(student.Name);   
+            return true;                    
         }
-        return false; // If duplicate, exclude it from results
+        return false; 
     });
 
     // ✅ Add a heading before displaying results
@@ -181,8 +193,8 @@ function displayResults(results) {
     uniqueResults.forEach(student => {
         resultHTML += `
             <li>
-                <a href="profile.html?name=${encodeURIComponent(student.Name)}">
-                    ${student.Name}  <!-- Student's name displayed as a clickable link -->
+                <a href="profile.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
+                    ${student.Name}  <!-- Student's name displayed in bold yellow -->
                 </a>
             </li>`;
     });
@@ -195,7 +207,8 @@ function displayResults(results) {
 
 
 
-  
+
+
 
 
 
@@ -235,9 +248,6 @@ function searchByYear() {
 }
 
 
-
-
-
 // ========================== Function to Display Year-Based Results ==========================
 function displayYearResults(results, selectedYear) {
     const container = document.getElementById("resultContainer");
@@ -254,8 +264,8 @@ function displayYearResults(results, selectedYear) {
     results.forEach(student => {
         resultHTML += `
             <li>
-                <a href="profile.html?name=${encodeURIComponent(student.Name)}">
-                    ${student.Name}
+                <a href="profile.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
+                    ${student.Name}  <!-- Student's name displayed in bold yellow -->
                 </a>
             </li>`;
     });
@@ -267,15 +277,8 @@ function displayYearResults(results, selectedYear) {
 
 
 
-  
-  
+// ========================== Function to Display FILTER Based Results ==========================
 
-
-
-
-
-
-  // ========================== Function to Display Results with Search Filters ==========================
 function searchDropdown() {
     let selectedCourse = document.getElementById("courseDropdown").value.trim();
     let selectedYear = document.getElementById("yearDropdown").value.trim();
@@ -285,6 +288,12 @@ function searchDropdown() {
 
     // Clear previous results
     container.innerHTML = "";
+
+    // ✅ Check if at least one filter is selected
+    if (!selectedCourse && !selectedYear && !selectedSemester && !selectedSubject) {
+        container.innerHTML = "<p style='color: yellow;'>Please select at least one filter before searching.</p>";
+        return;
+    }
 
     console.log("🔎 Selected Filters Before Normalization:", {
         Course: selectedCourse,
@@ -321,6 +330,13 @@ function searchDropdown() {
         Subject: selectedSubject
     });
 
+    // ✅ Ensure studentData is defined
+    if (!Array.isArray(studentData) || studentData.length === 0) {
+        console.error("❌ studentData is missing or empty!");
+        container.innerHTML = "<p style='color: red;'>Error: No student data available.</p>";
+        return;
+    }
+
     // ✅ Apply Filters - Ensure all filters work correctly
     let filteredResults = studentData.filter(student => {
         let courseMatch = !selectedCourse || student.Course === selectedCourse;
@@ -352,12 +368,12 @@ function searchDropdown() {
         return;
     }
 
-    // ✅ Display results as hyperlinks
+    // ✅ Display results as hyperlinks (Bold & Yellow)
     let resultHTML = `<h3>Matching Students:</h3><ul>`;
     uniqueStudents.forEach(student => {
         resultHTML += `
             <li>
-                <a href="profile.html?name=${encodeURIComponent(student.Name)}">
+                <a href="profile.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
                     ${student.Name}
                 </a>
             </li>`;
@@ -366,6 +382,8 @@ function searchDropdown() {
 
     container.innerHTML = resultHTML;
 }
+
+
 
 
 
