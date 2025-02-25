@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 /* overall body text */
 body {
   margin: 0;
@@ -765,3 +777,58 @@ footer {
 }
 
 
+
+
+
+/* Profile Icon Styling */
+.profile-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px; /* Space between Home and Profile button */
+  width: 30px; /* Outer circle size */
+  height: 30px; /* Outer circle size */
+  background-color: #00ccff; /* Outer circle color */
+  border-radius: 50%; /* Circular button */
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+/* Icon inside the Profile Button */
+.profile-icon i {
+  font-size: 50px; /* Actual profile icon size */
+  color: #000000; /* Icon color */
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+.profile-icon:hover {
+  background-color: #0099cc; /* Darker shade on hover */
+}
+
+.profile-icon i:hover {
+  color: #f2ff00; /* Change icon color on hover */
+}
+
+/* 📱 Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+  .profile-icon {
+    width: 50px; /* Smaller size for mobile */
+    height: 50px; /* Smaller size for mobile */
+  }
+
+  .profile-icon i {
+    font-size: 30px; /* Smaller icon size */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-icon {
+    width: 45px; /* Even smaller on very small screens */
+    height: 45px;
+  }
+
+  .profile-icon i {
+    font-size: 28px;
+  }
+}

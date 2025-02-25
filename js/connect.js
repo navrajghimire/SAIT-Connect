@@ -193,7 +193,7 @@ function displayResults(results) {
     uniqueResults.forEach(student => {
         resultHTML += `
             <li>
-                <a href="profile.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
+                <a href="student.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
                     ${student.Name}  <!-- Student's name displayed in bold yellow -->
                 </a>
             </li>`;
@@ -264,7 +264,7 @@ function displayYearResults(results, selectedYear) {
     results.forEach(student => {
         resultHTML += `
             <li>
-                <a href="profile.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
+                <a href="student.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
                     ${student.Name}  <!-- Student's name displayed in bold yellow -->
                 </a>
             </li>`;
@@ -373,7 +373,7 @@ function searchDropdown() {
     uniqueStudents.forEach(student => {
         resultHTML += `
             <li>
-                <a href="profile.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
+                <a href="student.html?name=${encodeURIComponent(student.Name)}" style="color: yellow; font-weight: bold;">
                     ${student.Name}
                 </a>
             </li>`;
