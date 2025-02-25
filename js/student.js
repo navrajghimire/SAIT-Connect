@@ -156,17 +156,23 @@ function goBack() {
 
 
 
+
+
 // Connect button function to open Microsoft Teams desktop chat directly
+
 document.getElementById("connectButton").addEventListener("click", function() {
     if (studentRecords.length > 0 && studentRecords[0].Email) {
-        try {
-            window.location.href = `msteams:/l/chat/0/0?users=${encodeURIComponent(studentRecords[0].Email)}`;
-            setTimeout(() => {
+        const teamsUrl = `msteams:/l/chat/0/0?users=${encodeURIComponent(studentRecords[0].Email)}`;
+
+        // Try to open Microsoft Teams
+        const newWindow = window.open(teamsUrl, "_self");
+
+        // Check if Teams opened successfully
+        setTimeout(() => {
+            if (!newWindow || newWindow.closed || typeof newWindow.closed === "undefined") {
                 alert("If Microsoft Teams did not open, please install Teams, log in with your SAIT account, and try again.");
-            }, 3000);
-        } catch (error) {
-            alert("Install Teams, log in with your SAIT account, and then try again.");
-        }
+            }
+        }, 3000);
     } else {
         alert("No email available for this student.");
     }
