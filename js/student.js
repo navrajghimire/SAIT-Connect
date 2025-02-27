@@ -4,7 +4,7 @@
 
   const studentData = [
 
-
+    { Name: "Jakon Cornell", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "jakob.cornell@edu.sait.ca" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "navrajmahaprasad.ghimire@edu.sait.ca" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 219 - Introduction to Web Communications" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "DSGN 228 - Introduction to Visual Design" },
