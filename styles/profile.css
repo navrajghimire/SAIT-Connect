@@ -1,11 +1,13 @@
 /* Global body styles */
 body {
-  margin: 0;
+  margin: 10px; 
   padding: 10px; 
   font-family: "Quicksand", sans-serif, Arial, 'Times New Roman';
   background-color: #000000; 
 }
 
+
+  
 /* Header section (fixed and responsive) */
 header {
   background-color: #000000;
@@ -70,7 +72,7 @@ header {
   font-size: 0.7em; /* Adjust the size as needed */
   display: block; /* Ensures it appears on a new line */
   margin-top: 2px; /* Fine-tune spacing between name and pronoun */
-  color: #ccc; /* Optional: Adjust the color for subtle styling */
+  color: #15ff00; /* Optional: Adjust the color for subtle styling */
 }
 
 
@@ -148,7 +150,7 @@ header {
 }
 
 .profile-details {
-  color: white; /* Make text white */
+  color: rgb(0, 255, 17); /* Make text white */
   text-align: left;
   margin-top: 20px; /* Space below the profile image */
 }
@@ -241,7 +243,6 @@ header {
 
 
 
-
 /* Footer styles */
 footer {
   background-color: rgb(0, 0, 0); 
@@ -305,6 +306,7 @@ footer {
   }
 }
 
+
 /* Footer Fixed at Bottom */
 footer {
   position: fixed;
@@ -312,9 +314,9 @@ footer {
   left: 0;
   width: 100%;
   background-color: #000; /* Ensure it matches your theme */
-  color: white; /* Footer text color */
+  color: rgb(238, 255, 0); /* Footer text color */
   padding: 10px 0; /* Add padding for better appearance */
-  text-align: center;
+
 
 
   

@@ -1,15 +1,15 @@
 
   // ========================== Local Student Data ==========================
- 
-
   const studentData = [
 
-    { Name: "Jakon Cornell", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "jakob.cornell@edu.sait.ca" },
+
+
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "navrajmahaprasad.ghimire@edu.sait.ca" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 219 - Introduction to Web Communications" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "DSGN 228 - Introduction to Visual Design" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "MMDA 202 - Digital Media Foundations" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "PHIL 241 - Critical Thinking" },
+    
     
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 218 - Intermediate Web Communications", Email: "navrajmahaprasad.ghimire@edu.sait.ca" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "PMGT 200 - Product Management" },
@@ -17,16 +17,103 @@
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
     
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" },
+    { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" , Email: "navrajmahaprasad.ghimire@edu.sait.ca" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 313 - Typography" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "PRNT 300 - Print Production" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 306 - Design Studio 1" },
     
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 308 - Design Studio 2" },
+    { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 308 - Design Studio 2" , Email: "navrajmahaprasad.ghimire@edu.sait.ca" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 309 - Future of Design" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DIGI 301 - Digital Marketing" },
+    
+    
+    
+    
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "Jashanpreet.Kaur04@edu.sait.ca" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 219 - Introduction to Web Communications" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "DSGN 228 - Introduction to Visual Design" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "MMDA 202 - Digital Media Foundations" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "PHIL 241 - Critical Thinking" },
+    
+    
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 218 - Intermediate Web Communications", Email: "Jashanpreet.Kaur04@edu.sait.ca" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "PMGT 200 - Product Management" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 221 - Intermediate Visual Design" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
+    
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" , Email: "Jashanpreet.Kaur04@edu.sait.ca" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 313 - Typography" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "PRNT 300 - Print Production" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 306 - Design Studio 1" },
+    
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 308 - Design Studio 2" , Email: "Jashanpreet.Kaur04@edu.sait.ca" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 309 - Future of Design" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
+    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DIGI 301 - Digital Marketing" },
+    
+    
+    
+    
+    
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "Mankirat.Kaur@edu.sait.ca" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 219 - Introduction to Web Communications" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "DSGN 228 - Introduction to Visual Design" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "MMDA 202 - Digital Media Foundations" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "PHIL 241 - Critical Thinking" },
+    
+    
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 218 - Intermediate Web Communications", Email: "Mankirat.Kaur@edu.sait.ca" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "PMGT 200 - Product Management" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 221 - Intermediate Visual Design" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
+    
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" , Email: "Mankirat.Kaur@edu.sait.ca" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 313 - Typography" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "PRNT 300 - Print Production" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 306 - Design Studio 1" },
+    
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 308 - Design Studio 2" , Email: "Mankirat.Kaur@edu.sait.ca" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 309 - Future of Design" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
+    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DIGI 301 - Digital Marketing" },
+    
+    
+    
+    
+    
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "RajdeepShaktidan.Narela@edu.sait.ca" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 219 - Introduction to Web Communications" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "DSGN 228 - Introduction to Visual Design" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "MMDA 202 - Digital Media Foundations" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "PHIL 241 - Critical Thinking" },
+    
+    
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 218 - Intermediate Web Communications", Email: "RajdeepShaktidan.Narela@edu.sait.ca" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "PMGT 200 - Product Management" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 221 - Intermediate Visual Design" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
+    
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" , Email: "RajdeepShaktidan.Narela@edu.sait.ca" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 313 - Typography" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "PRNT 300 - Print Production" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 306 - Design Studio 1" },
+    
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 308 - Design Studio 2" , Email: "RajdeepShaktidan.Narela@edu.sait.ca" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 309 - Future of Design" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
+    { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DIGI 301 - Digital Marketing" },
+    
+    
+    
+    
     
     
     
@@ -56,6 +143,8 @@
     
     
     
+    { Name: "Jakon Cornell", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CMPH 209 - Introduction to Hardware", Email: "jakob.cornell@edu.sait.ca" },	
+    
     { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CMPH 209 - Introduction to Hardware", Email: "riya.patel@edu.sait.ca" },	
     { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I" },	
     { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CPNT 219 - Introduction to Networks" },	
@@ -79,11 +168,12 @@
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 350 - Intermediate Virtualization" },
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 352 - IT Service Management" },
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" }
-
-      
+    
+     
       
       
       ];
+    
 
 
 
@@ -106,8 +196,11 @@ if (studentRecords.length > 0) {
     // Update HTML content dynamically
     document.getElementById("studentName").textContent = student.Name;
     document.getElementById("studentEmail").textContent = student.Email || "N/A";
-    document.getElementById("studentYear").textContent = student.Year || "N/A";
-    document.getElementById("studentSemester").textContent = student.Semester || "N/A";
+
+ // HIDEN AT THE MOMENT
+
+    //  document.getElementById("studentYear").textContent = student.Year || "N/A";
+    //  document.getElementById("studentSemester").textContent = student.Semester || "N/A";
 
     // Construct the photo source URL
     const photoSrc = `assets/studentsphoto/${encodeURIComponent(student.Name)}.jpg`;
@@ -138,8 +231,11 @@ if (studentRecords.length > 0) {
     // If the student isn't found, display a default message
     document.getElementById("studentName").textContent = "Student not found.";
     document.getElementById("studentEmail").textContent = "N/A";
-    document.getElementById("studentYear").textContent = "N/A";
-    document.getElementById("studentSemester").textContent = "N/A";
+
+     // HIDEN AT THE MOMENT
+     
+    //document.getElementById("studentYear").textContent = "N/A";
+   // document.getElementById("studentSemester").textContent = "N/A";
     
     // Set the default photo
     document.getElementById("studentPhoto").src = 'assets/studentsphoto/default.jpg';
