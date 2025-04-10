@@ -236,7 +236,6 @@ header {
 
 
 
-
 /* Footer styles */
 footer {
   background-color: rgb(0, 0, 0); 
@@ -298,22 +297,6 @@ footer {
   .contact-details {
     margin-bottom: 20px;
   }
-}
-
-
-/* Footer Fixed at Bottom */
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #000; /* Ensure it matches your theme */
-  color: rgb(238, 255, 0); /* Footer text color */
-  padding: 10px 0; /* Add padding for better appearance */
-
-
-
-  
 }
 
 

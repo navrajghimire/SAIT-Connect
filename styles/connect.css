@@ -619,15 +619,17 @@ footer {
 
 
 
+
+
 /* Profile Icon Styling */
 .profile-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-left: 15px; /* Space between Home and Profile button */
-  width: 30px; /* Outer circle size */
-  height: 30px; /* Outer circle size */
-  background-color: #00ccff; /* Outer circle color */
+  margin-left: 50px; /* Space between Home and Profile button */
+  width: 1px; /* Outer circle size */
+  height: 1px; /* Outer circle size */
+  background-color: #f6ff00; /* Outer circle color */
   border-radius: 50%; /* Circular button */
   text-decoration: none;
   transition: background 0.3s ease;
@@ -635,10 +637,11 @@ footer {
 
 /* Icon inside the Profile Button */
 .profile-icon i {
-  font-size: 50px; /* Actual profile icon size */
+  font-size:35px; /* Actual profile icon size */
   color: #000000; /* Icon color */
   transition: color 0.3s ease;
 }
+
 
 /* Hover Effect */
 .profile-icon:hover {
@@ -663,12 +666,13 @@ footer {
 
 @media screen and (max-width: 480px) {
   .profile-icon {
-    width: 45px; /* Even smaller on very small screens */
-    height: 45px;
+    width:25px; /* Even smaller on very small screens */
+    height:25px;
+    
   }
 
   .profile-icon i {
-    font-size: 28px;
+    font-size: 48px;
   }
 }
 
