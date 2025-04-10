@@ -496,3 +496,6 @@ function clearSearchFilters() {
     document.getElementById("subjectDropdown").value = "";
     document.getElementById("resultContainerDropdown").innerHTML = ""; // Clear results
 }
+
+
+

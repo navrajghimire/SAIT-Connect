@@ -15,6 +15,47 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const loginLink = document.querySelector('.login-link');
+    const logoutLink = document.querySelector('.logout-link');
+    const profileLink = document.querySelector('.profile-link');
+    const signupLink = document.querySelector('.signup-link');
+
+    let isLoggedIn = false; // Replace with actual auth system
+
+    function updateDropdownLinks() {
+        if (isLoggedIn) {
+            loginLink.style.display = 'none';
+            logoutLink.style.display = 'block';
+            profileLink.style.display = 'block';
+            signupLink.style.display = 'none';
+        } else {
+            loginLink.style.display = 'block';
+            logoutLink.style.display = 'none';
+            profileLink.style.display = 'none';
+            signupLink.style.display = 'block';
+        }
+    }
+
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', function () {
+            navLinks.classList.toggle('menu-open');
+        });
+    }
+
+    if (loginLink && logoutLink && profileLink && signupLink) {
+        updateDropdownLinks();
+    }
+});
+
+
+
+
+
+
 // Ensure DOM is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
 

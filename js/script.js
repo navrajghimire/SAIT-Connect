@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Redirect to main.html when the Login button is clicked
+// Redirect to connect.html when the Login button is clicked
 function redirectToMain() {
-  window.location.href = "main.html";
+  window.location.href = "connect.html";
 }
 
 // Redirect to signup.html when the Sign Up button is clicked
