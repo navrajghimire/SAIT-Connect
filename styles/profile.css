@@ -91,6 +91,16 @@ header {
 }
 
 
+.about-content {
+  font-weight: bold;
+  margin-bottom: 5px; /* Space below the heading */
+  color: rgb(255, 255, 255); /* Change text color to red */
+}
+
+
+
+
+
 
 /* LinkedIn-Style Banner */
 .banner {
@@ -408,6 +418,18 @@ footer {
 
 
 .about-section {
-  color:#6508de
+  font-size: larger;
+  color:#ffffff
 }
 
+
+.skills-section{
+  font-size: larger;
+  color:#ffffff
+}
+
+
+.Major-section{
+  font-size: small;
+  color:#ffffff
+}
