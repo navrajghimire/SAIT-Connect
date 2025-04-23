@@ -1,22 +1,12 @@
 
+   
+  
   // ========================== Local Student Data ==========================
   const studentData = [
 
 
 
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "navrajmahaprasad.ghimire@edu.sait.ca" },
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 219 - Introduction to Web Communications" },
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "DSGN 228 - Introduction to Visual Design" },
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "MMDA 202 - Digital Media Foundations" },
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "PHIL 241 - Critical Thinking" },
-    
-    
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 218 - Intermediate Web Communications", Email: "navrajmahaprasad.ghimire@edu.sait.ca" },
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "PMGT 200 - Product Management" },
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 221 - Intermediate Visual Design" },
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
-    { Name: "Navraj Ghimire", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
-    
+
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" , Email: "navrajmahaprasad.ghimire@edu.sait.ca" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
     { Name: "Navraj Ghimire", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 313 - Typography" },
@@ -44,17 +34,6 @@
     { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
     { Name: "Jashanpreet Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
     
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" , Email: "Jashanpreet.Kaur04@edu.sait.ca" },
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 313 - Typography" },
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "PRNT 300 - Print Production" },
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 306 - Design Studio 1" },
-    
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 308 - Design Studio 2" , Email: "Jashanpreet.Kaur04@edu.sait.ca" },
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 309 - Future of Design" },
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
-    { Name: "Jashanpreet Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DIGI 301 - Digital Marketing" },
-    
     
     
     
@@ -72,33 +51,10 @@
     { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
     { Name: "Mankirat Kaur", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
     
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" , Email: "Mankirat.Kaur@edu.sait.ca" },
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 313 - Typography" },
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "PRNT 300 - Print Production" },
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 306 - Design Studio 1" },
-    
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 308 - Design Studio 2" , Email: "Mankirat.Kaur@edu.sait.ca" },
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DSGN 309 - Future of Design" },
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
-    { Name: "Mankirat Kaur", Course: "IDD", Year: "Second Year", Semester: "Sem 2", Subject: "DIGI 301 - Digital Marketing" },
     
     
     
     
-    
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I", Email: "RajdeepShaktidan.Narela@edu.sait.ca" },
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 219 - Introduction to Web Communications" },
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "DSGN 228 - Introduction to Visual Design" },
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "MMDA 202 - Digital Media Foundations" },
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 1", Subject: "PHIL 241 - Critical Thinking" },
-    
-    
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 218 - Intermediate Web Communications", Email: "RajdeepShaktidan.Narela@edu.sait.ca" },
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "PMGT 200 - Product Management" },
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 221 - Intermediate Visual Design" },
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "DSGN 227 - Introduction to User Experience (UX)" },
-    { Name: "Rajdeep Narela", Course: "IDD", Year: "First Year", Semester: "Sem 2", Subject: "MMDA 203 - Intermediate Digital Media Production" },
     
     { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DIGI 300 - Digital Imaging" , Email: "RajdeepShaktidan.Narela@edu.sait.ca" },
     { Name: "Rajdeep Narela", Course: "IDD", Year: "Second Year", Semester: "Sem 1", Subject: "DSGN 304 - Advanced Visual Design" },
@@ -123,41 +79,47 @@
     { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 216 - Object-Oriented Programming 1" },																	
     { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 1", Subject: "MATH 237 - Mathematics for Technologists" },
     
-    { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 211 - Object-Oriented Programming 2" },																	
+    { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 211 - Object-Oriented Programming 2", Email: "zachery.favel@edu.sait.ca" },																		
     { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 250 - Database Design and Programming" },																	
     { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 2", Subject: "CPSY 200 - Software Analysis and Design" },																	
     { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 2", Subject: "CPSY 202 - User Experience and Design" },																	
     { Name: "Zachery Favel", Course: "SD", Year: "First Year", Semester: "Sem 2", Subject: "PHIL 241 - Critical Thinking" },	
     
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 303 - Mobile Application Development" },
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 304 - Object-Oriented Programming 3" },
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 306 - Web Development 2" },
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 307 - Database Programming" },
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPSY 301 - Software Projects: Analysis, Design, and Management" },
+
+
+
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 303 - Mobile Application Development", Email: "MitanshiKetul.Pandya@edu.sait.ca" },																	
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 304 - Object-Oriented Programming 3" },
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 306 - Web Development 2" },
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPRG 307 - Database Programming" },
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 1", Subject: "CPSY 301 - Software Projects: Analysis, Design, and Management" },
     
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "CPRG 305 - Software Testing and Deployment" },
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 300 - Cloud Computing for Software Development" },
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "INTP 302 - Emerging Trends in Software Development" },
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "ITSC 320 - Software Security" },
-    { Name: "Zachery Favel", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "CPRG 305 - Software Testing and Deployment", Email: "MitanshiKetul.Pandya@edu.sait.ca" },	
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 300 - Cloud Computing for Software Development" },
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "INTP 302 - Emerging Trends in Software Development" },
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "ITSC 320 - Software Security" },
+    { Name: "MitanshiKetul Pandya", Course: "SD", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" },
     
     
     
     { Name: "Jakon Cornell", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CMPH 209 - Introduction to Hardware", Email: "jakob.cornell@edu.sait.ca" },	
     
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CMPH 209 - Introduction to Hardware", Email: "riya.patel@edu.sait.ca" },	
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I" },	
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CPNT 219 - Introduction to Networks" },	
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 216 - Object-Oriented Programming 1" },	
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "MATH 237 - Mathematics for Technologists" },	
+
+
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CMPH 209 - Introduction to Hardware", Email: "PrabhnoorSingh.Lubana@edu.sait.ca" },
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CMPH 209 - Introduction to Hardware", Email: "PrabhnoorSingh.Lubana@edu.sait.ca" },	
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "COMM 238 - Technical Communications I" },	
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CPNT 219 - Introduction to Networks" },	
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "CPRG 216 - Object-Oriented Programming 1" },	
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 1", Subject: "MATH 237 - Mathematics for Technologists" },	
     
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPNT 224 - Switching and Routing Essentials" },
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 217 - Scripting" },
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPSY 204 - Server Fundamentals" },
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPSY 206 - Virtualization Fundamentals" },
-    { Name: "Riya Patel", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "PHIL 241 - Critical Thinking" },
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPNT 224 - Switching and Routing Essentials", Email: "PrabhnoorSingh.Lubana@edu.sait.ca" },	
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPRG 217 - Scripting" },
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPSY 204 - Server Fundamentals" },
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "CPSY 206 - Virtualization Fundamentals" },
+    { Name: "PrabhnoorSingh Lubana", Course: "ITS", Year: "First Year", Semester: "Sem 2", Subject: "PHIL 241 - Critical Thinking" },
     
-    { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "CPNT 300 - Enterprise Networking, Security, and Automation" },
+    { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "CPNT 300 - Enterprise Networking, Security, and Automation", Email: "riya.patel@edu.sait.ca" },	
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "CPNT 302 - Wireless Networking Fundamentals" },
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "INTP 301 - Emerging Technologies" },
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 1", Subject: "ITSC 300 - IT Security Fundamentals" },
@@ -165,7 +127,7 @@
     
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 302 - Advanced Servers" },
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 304 - Cloud Computing" },
-    { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 350 - Intermediate Virtualization" },
+    { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 350 - Intermediate Virtualization", Email: "riya.patel@edu.sait.ca" },	
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "CPSY 352 - IT Service Management" },
     { Name: "Riya Patel", Course: "ITS", Year: "Second Year", Semester: "Sem 2", Subject: "PROJ 309 - Capstone Project" }
     
@@ -173,7 +135,10 @@
       
       
       ];
-    
+
+      
+
+
 
 
 
